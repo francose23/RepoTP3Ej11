@@ -12,7 +12,7 @@
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         While Contador < 1000
-            Unidad = (Contador Mod 10)
+            Unidad = (Contador Mod 10) ''
             Centena = Int(Contador / 100)
             If (Unidad = Centena) Then
                 ListBox1.Items.Add(Str(Contador))
